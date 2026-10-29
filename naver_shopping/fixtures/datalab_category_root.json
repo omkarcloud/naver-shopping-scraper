@@ -1,0 +1,256 @@
+{
+ "cid": 0,
+ "pid": -1,
+ "name": "전체",
+ "parentPath": "",
+ "level": 0,
+ "expsOrder": 0,
+ "parents": [],
+ "childList": [
+  {
+   "cid": 50000000,
+   "pid": 0,
+   "name": "패션의류",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 1,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "패션의류"
+  },
+  {
+   "cid": 50000001,
+   "pid": 0,
+   "name": "패션잡화",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 2,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "패션잡화"
+  },
+  {
+   "cid": 50000002,
+   "pid": 0,
+   "name": "화장품/미용",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 3,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "화장품/미용"
+  },
+  {
+   "cid": 50000003,
+   "pid": 0,
+   "name": "디지털/가전",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 4,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전"
+  },
+  {
+   "cid": 50000004,
+   "pid": 0,
+   "name": "가구/인테리어",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 5,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "가구/인테리어"
+  },
+  {
+   "cid": 50000005,
+   "pid": 0,
+   "name": "출산/육아",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 6,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "출산/육아"
+  },
+  {
+   "cid": 50000006,
+   "pid": 0,
+   "name": "식품",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 7,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "식품"
+  },
+  {
+   "cid": 50000007,
+   "pid": 0,
+   "name": "스포츠/레저",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 8,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "스포츠/레저"
+  },
+  {
+   "cid": 50000008,
+   "pid": 0,
+   "name": "생활/건강",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 9,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "생활/건강"
+  },
+  {
+   "cid": 50000009,
+   "pid": 0,
+   "name": "여가/생활편의",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 10,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "여가/생활편의"
+  },
+  {
+   "cid": 50000010,
+   "pid": 0,
+   "name": "면세점",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 11,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": false,
+   "fullPath": "면세점"
+  },
+  {
+   "cid": 50005542,
+   "pid": 0,
+   "name": "도서",
+   "parentPath": "",
+   "level": 1,
+   "expsOrder": 12,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "도서"
+  }
+ ],
+ "leaf": false,
+ "deleted": false,
+ "svcUse": true,
+ "sblogUse": false,
+ "fullPath": "전체"
+}

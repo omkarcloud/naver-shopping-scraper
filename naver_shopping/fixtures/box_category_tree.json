@@ -1,0 +1,157 @@
+{
+ "id": "0",
+ "name": "ROOT",
+ "categoryId": "0",
+ "parentCategoryId": "0",
+ "level": 0,
+ "sortOrder": 0,
+ "subCategories": [
+  {
+   "id": "21f196d5fa454e69b5a649dfad406f64",
+   "type": "DISPLAY_CATEGORY",
+   "name": "N배송 🚚",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 1,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true
+  },
+  {
+   "id": "88b2ae398e2843769ecb0e9322c6707d",
+   "type": "DISPLAY_CATEGORY",
+   "name": "보조배터리 🔋",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 2,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true,
+   "subCategories": [
+    {
+     "id": "4abdb8fba0f24db98d57d85381a78135",
+     "type": "DISPLAY_CATEGORY",
+     "name": "5,000mAh",
+     "parentStoreCategoryId": "88b2ae398e2843769ecb0e9322c6707d",
+     "level": 2,
+     "sortOrder": 3,
+     "allProductCategory": false,
+     "exposure": true,
+     "selfExposure": true
+    },
+    {
+     "id": "8cc935694d414b02a0517a6d4e8fa197",
+     "type": "DISPLAY_CATEGORY",
+     "name": "10,000mAh",
+     "parentStoreCategoryId": "88b2ae398e2843769ecb0e9322c6707d",
+     "level": 2,
+     "sortOrder": 4,
+     "allProductCategory": false,
+     "exposure": true,
+     "selfExposure": true
+    },
+    {
+     "id": "5ffd626d0f164d2e852e6888f99e191e",
+     "type": "DISPLAY_CATEGORY",
+     "name": "20,000mAh",
+     "parentStoreCategoryId": "88b2ae398e2843769ecb0e9322c6707d",
+     "level": 2,
+     "sortOrder": 5,
+     "allProductCategory": false,
+     "exposure": true,
+     "selfExposure": true
+    }
+   ]
+  },
+  {
+   "id": "9f64f1d513ee4561bf7a6f463622384f",
+   "type": "DISPLAY_CATEGORY",
+   "name": "생활용품 🏠",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 6,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true
+  },
+  {
+   "id": "ce80968ebeaf453498b86fca9f2d9e2e",
+   "type": "DISPLAY_CATEGORY",
+   "name": "여름준비 ☀️",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 7,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true
+  },
+  {
+   "id": "af500b3756d74fb59f3b46ed6f8c5307",
+   "type": "DISPLAY_CATEGORY",
+   "name": "셀카봉 📷",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 8,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true
+  },
+  {
+   "id": "c2acddf50a2d4d21acc771bbf9716477",
+   "type": "DISPLAY_CATEGORY",
+   "name": "무선충전기 ⚡",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 9,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true
+  },
+  {
+   "id": "31f4b6d7b9764ef2b5a6765257711e4c",
+   "type": "DISPLAY_CATEGORY",
+   "name": "차량용품 🚗",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 10,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true
+  },
+  {
+   "id": "de6f3b4f58ed403cbbc37893378f7319",
+   "type": "DISPLAY_CATEGORY",
+   "name": "여행용품 🧳",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 11,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true
+  },
+  {
+   "id": "a6ce3358b78d4aa49e1cdf8e03a47438",
+   "type": "DISPLAY_CATEGORY",
+   "name": "액세서리 🤳",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 12,
+   "allProductCategory": false,
+   "exposure": true,
+   "selfExposure": true
+  },
+  {
+   "id": "6e2db4aee1b14ee48d7ca7f067a79dd3",
+   "type": "DISPLAY_CATEGORY",
+   "name": "전체상품",
+   "categoryId": "ALL",
+   "parentCategoryId": "ALL",
+   "parentStoreCategoryId": "0",
+   "level": 1,
+   "sortOrder": 13,
+   "allProductCategory": true,
+   "exposure": true,
+   "selfExposure": true
+  }
+ ]
+}

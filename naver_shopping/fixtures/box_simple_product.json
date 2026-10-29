@@ -1,0 +1,212 @@
+[
+ {
+  "id": 10352481064,
+  "channelServiceType": "STOREFARM",
+  "channelProductDisplayStatusType": "ON",
+  "category": {
+   "wholeCategoryId": "50000003>50000205>50001380>50004603",
+   "wholeCategoryName": "디지털/가전>휴대폰액세서리>휴대폰배터리>보조배터리",
+   "categoryId": "50004603",
+   "categoryName": "보조배터리"
+  },
+  "name": "포켓쉴 대용량 보조배터리 20000 기내반입 보조배터리 비행기 여행용 휴대용 충전기",
+  "dispName": "포켓쉴 대용량 보조배터리 20000 기내반입 보조배터리 비행기 여행용 휴대용 충전기",
+  "channel": {
+   "channelNo": 101990134,
+   "accountNo": 101886802,
+   "channelUid": "2tM2sBNWRoB8NdZLNZItU",
+   "accountId": "ncp_1onscy_01",
+   "channelName": "바우아토"
+  },
+  "storeKeepExclusiveProduct": false,
+  "productNo": 10302552667,
+  "salePrice": 60800,
+  "saleType": "NEW",
+  "productStatusType": "SALE",
+  "authenticationType": "NORMAL",
+  "seoInfo": {
+   "sellerTags": [
+    {
+     "code": 480,
+     "text": "초경량"
+    },
+    {
+     "code": 4542,
+     "text": "귀여운"
+    },
+    {
+     "code": 13721,
+     "text": "여행용충전기"
+    },
+    {
+     "code": 96661,
+     "text": "8핀충전기"
+    },
+    {
+     "code": 847896,
+     "text": "C타입충전기"
+    },
+    {
+     "code": 5288,
+     "text": "기내용"
+    },
+    {
+     "code": 27879,
+     "text": "감성캠핑용품"
+    },
+    {
+     "code": 392133,
+     "text": "슬림한디자인"
+    },
+    {
+     "code": 18104,
+     "text": "초고속충전기"
+    },
+    {
+     "code": 503080,
+     "text": "일체형케이블"
+    }
+   ]
+  },
+  "optionUsable": true,
+  "optionStandards": [],
+  "supplementProductUsable": false,
+  "naverShoppingSearchInfo": {
+   "brandId": 4040892,
+   "manufacturerName": "㈜비바넥사",
+   "brandName": "바우아토",
+   "modelName": "가벼운 일체형 보조배터리 20000 아이폰 휴대용 보조배터리"
+  },
+  "purchaseReviewInfo": {
+   "purchaseReviewExposure": true
+  },
+  "minorPurchasable": true,
+  "isRestrictCart": false,
+  "benefitsView": {
+   "discountedSalePrice": 37800,
+   "mobileDiscountedSalePrice": 37800,
+   "sellerImmediateDiscountAmount": 23000,
+   "mobileSellerImmediateDiscountAmount": 23000,
+   "managerImmediateDiscountAmount": 0,
+   "mobileManagerImmediateDiscountAmount": 0,
+   "discountedRatio": 37,
+   "mobileDiscountedRatio": 37,
+   "sellerPurchasePoint": 0,
+   "mobileSellerPurchasePoint": 0,
+   "sellerCustomerManagementPoint": 0,
+   "mobileSellerCustomerManagementPoint": 0,
+   "managerPurchasePoint": 378,
+   "mobileManagerPurchasePoint": 378,
+   "managerPurchaseExtraPoint": 0,
+   "mobileManagerPurchaseExtraPoint": 0,
+   "storeMemberReviewPoint": 0,
+   "givePresent": true,
+   "textReviewPoint": 0,
+   "photoVideoReviewPoint": 0,
+   "afterUseTextReviewPoint": 0,
+   "afterUsePhotoVideoReviewPoint": 0,
+   "managerTextReviewPoint": 50,
+   "managerPhotoVideoReviewPoint": 150,
+   "managerAfterUseTextReviewPoint": 50,
+   "managerAfterUsePhotoVideoReviewPoint": 150,
+   "dispDiscountedSalePrice": 37800,
+   "dispDiscountedRatio": 37
+  },
+  "reviewAmount": {
+   "totalReviewCount": 6686,
+   "premiumReviewCount": 0,
+   "averageReviewScore": 4.86,
+   "productSatisfactionPercent": 0
+  },
+  "displayable": true,
+  "usableDelivery": true,
+  "representativeImageUrl": "https://shop-phinf.pstatic.net/20240730_156/1722317376409iTq4U_PNG/55790245209428243_358971560.png",
+  "representativeImageWidth": 1100,
+  "representativeImageHeight": 1100,
+  "optionalImageUrls": [
+   "https://shop-phinf.pstatic.net/20240521_159/1716285023057AbD59_PNG/117420865766175097_1232268164.png",
+   "https://shop-phinf.pstatic.net/20251203_79/1764742107484Rnf8n_PNG/2527111687326833_294368963.png",
+   "https://shop-phinf.pstatic.net/20251203_83/1764742163277bIeL9_PNG/50817589083625132_1325213084.png",
+   "https://shop-phinf.pstatic.net/20240521_51/1716256903175qmoRD_PNG/43559587050047669_448371655.png",
+   "https://shop-phinf.pstatic.net/20240521_147/1716256915356y9x8D_PNG/43559599229972218_1289830591.png",
+   "https://shop-phinf.pstatic.net/20240521_125/1716256918507qhdRA_PNG/43559602384598061_771673269.png",
+   "https://shop-phinf.pstatic.net/20240521_14/1716256907420uqw2T_PNG/43559591296196658_1522943711.png",
+   "https://shop-phinf.pstatic.net/20240712_212/1720749924318l3Wyw_PNG/301508795391206_1462696797.png",
+   "https://shop-phinf.pstatic.net/20251013_166/1760342486180KmJ4C_PNG/3982612985940620_198128648.png"
+  ],
+  "representativeVideoId": "595F41FDFFA8BE413CB71CDED245CDBDADD0",
+  "productDeliveryInfo": {
+   "deliveryFeeType": "FREE",
+   "baseFee": 0,
+   "deliveryAttributeType": "ARRIVAL_GUARANTEE",
+   "installationFee": false,
+   "area2ExtraFee": 3000,
+   "area3ExtraFee": 5000,
+   "deliveryMethodTypes": [
+    "DELIVERY"
+   ],
+   "deliveryCompany": {
+    "id": "CJGLS",
+    "name": "CJ대한통운"
+   }
+  },
+  "detailContents": {
+   "editorType": "SEONE"
+  },
+  "enableCart": true,
+  "freeDelivery": true,
+  "todayDelivery": false,
+  "regularSubscription": false,
+  "arrivalGuarantee": true,
+  "subscriptionBenefitContent": [],
+  "productLogistics": {
+   "logisticsCompanyNo": 100000003,
+   "logisticsCompanyId": "FS",
+   "logisticsCompanyName": "파스토(FASSTO)",
+   "useExternalStock": true
+  },
+  "rmids": [
+   "YH",
+   "YI",
+   "YJ",
+   "YK",
+   "YL",
+   "YM",
+   "YN"
+  ],
+  "rentalOneTimeFee": false,
+  "stockQuantity": 873,
+  "benefitsPolicy": {
+   "sellerImmediateDiscountPolicyNo": "SE_10302552667",
+   "sellerImmediateDiscountValueUnit": "WON",
+   "sellerImmediateDiscountValue": 23000,
+   "multiPurchaseDiscountValueUnit": "WON",
+   "multiPurchaseDiscountValue": 3000,
+   "multiPurchaseOrderUnit": "WON",
+   "multiPurchaseOrderValue": 65900
+  },
+  "mobileBenefitsPolicy": {
+   "sellerImmediateDiscountPolicyNo": "SE_10302552667",
+   "sellerImmediateDiscountValueUnit": "WON",
+   "sellerImmediateDiscountValue": 23000,
+   "multiPurchaseDiscountValueUnit": "WON",
+   "multiPurchaseDiscountValue": 3000,
+   "multiPurchaseOrderUnit": "WON",
+   "multiPurchaseOrderValue": 65900
+  },
+  "dispSalePrice": 60800,
+  "claimDeliveryInfo": {
+   "freeReturnInsurance": false
+  },
+  "epInfo": {
+   "syncNvMid": 87896985537,
+   "naverShoppingRegistration": true,
+   "naverShoppingExposure": true
+  },
+  "affiliateYn": true,
+  "adultAuthorizationType": "NOT_LOGIN",
+  "authorizationDisplay": "NORMAL",
+  "orderDeliveryAttributeType": "ARRIVAL_GUARANTEE",
+  "orderScheduledChannelType": null
+ }
+]

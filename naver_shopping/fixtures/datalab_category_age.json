@@ -1,0 +1,61 @@
+{
+ "code": "",
+ "message": "",
+ "shoppingParam": {
+  "startDate": "2026-09-23",
+  "endDate": "2026-10-23",
+  "timeUnit": "date",
+  "cid": "50000003",
+  "device": "",
+  "gender": "",
+  "age": "10,20,30,40,50,60",
+  "keyword": null,
+  "page": 0,
+  "count": 0,
+  "type": null,
+  "date": null,
+  "dateRange": "2026.09.23. ~ 2026.10.23."
+ },
+ "chartType": "barChart",
+ "range": "2026.09.23. ~ 2026.10.23.",
+ "result": [
+  {
+   "code": null,
+   "title": "50000003",
+   "fullTitle": null,
+   "data": [
+    {
+     "code": "10",
+     "label": "10대",
+     "ratio": 2.55767
+    },
+    {
+     "code": "20",
+     "label": "20대",
+     "ratio": 17.15139
+    },
+    {
+     "code": "30",
+     "label": "30대",
+     "ratio": 59.81832
+    },
+    {
+     "code": "40",
+     "label": "40대",
+     "ratio": 100.0
+    },
+    {
+     "code": "50",
+     "label": "50대",
+     "ratio": 79.57897
+    },
+    {
+     "code": "60",
+     "label": "60대",
+     "ratio": 41.68632
+    }
+   ]
+  }
+ ],
+ "success": true
+}

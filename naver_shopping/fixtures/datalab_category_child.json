@@ -1,0 +1,693 @@
+{
+ "cid": 50000003,
+ "pid": 0,
+ "name": "디지털/가전",
+ "parentPath": "",
+ "level": 1,
+ "expsOrder": 4,
+ "parents": [
+  {
+   "cid": 0,
+   "name": "전체"
+  }
+ ],
+ "childList": [
+  {
+   "cid": 50000151,
+   "pid": 50000003,
+   "name": "노트북",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 1,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": true,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 노트북"
+  },
+  {
+   "cid": 50000091,
+   "pid": 50000003,
+   "name": "노트북액세서리",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 2,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 노트북액세서리"
+  },
+  {
+   "cid": 50000205,
+   "pid": 50000003,
+   "name": "휴대폰액세서리",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 3,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 휴대폰액세서리"
+  },
+  {
+   "cid": 50000089,
+   "pid": 50000003,
+   "name": "PC",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 4,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > PC"
+  },
+  {
+   "cid": 50000153,
+   "pid": 50000003,
+   "name": "모니터",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 5,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": true,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 모니터"
+  },
+  {
+   "cid": 50000208,
+   "pid": 50000003,
+   "name": "영상가전",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 6,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 영상가전"
+  },
+  {
+   "cid": 50000209,
+   "pid": 50000003,
+   "name": "음향가전",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 7,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 음향가전"
+  },
+  {
+   "cid": 50000210,
+   "pid": 50000003,
+   "name": "생활가전",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 8,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 생활가전"
+  },
+  {
+   "cid": 50000211,
+   "pid": 50000003,
+   "name": "이미용가전",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 9,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 이미용가전"
+  },
+  {
+   "cid": 50000206,
+   "pid": 50000003,
+   "name": "카메라/캠코더용품",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 10,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 카메라/캠코더용품"
+  },
+  {
+   "cid": 50000213,
+   "pid": 50000003,
+   "name": "주방가전",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 11,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 주방가전"
+  },
+  {
+   "cid": 50000214,
+   "pid": 50000003,
+   "name": "자동차기기",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 12,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 자동차기기"
+  },
+  {
+   "cid": 50000212,
+   "pid": 50000003,
+   "name": "계절가전",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 13,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 계절가전"
+  },
+  {
+   "cid": 50000204,
+   "pid": 50000003,
+   "name": "휴대폰",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 14,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 휴대폰"
+  },
+  {
+   "cid": 50000087,
+   "pid": 50000003,
+   "name": "학습기기",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 15,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 학습기기"
+  },
+  {
+   "cid": 50000088,
+   "pid": 50000003,
+   "name": "게임기/타이틀",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 16,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 게임기/타이틀"
+  },
+  {
+   "cid": 50000090,
+   "pid": 50000003,
+   "name": "PC액세서리",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 17,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > PC액세서리"
+  },
+  {
+   "cid": 50000152,
+   "pid": 50000003,
+   "name": "태블릿PC",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 18,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": true,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 태블릿PC"
+  },
+  {
+   "cid": 50000092,
+   "pid": 50000003,
+   "name": "태블릿PC액세서리",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 19,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 태블릿PC액세서리"
+  },
+  {
+   "cid": 50000093,
+   "pid": 50000003,
+   "name": "모니터주변기기",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 20,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 모니터주변기기"
+  },
+  {
+   "cid": 50000094,
+   "pid": 50000003,
+   "name": "주변기기",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 21,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 주변기기"
+  },
+  {
+   "cid": 50000095,
+   "pid": 50000003,
+   "name": "멀티미디어장비",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 22,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 멀티미디어장비"
+  },
+  {
+   "cid": 50000096,
+   "pid": 50000003,
+   "name": "저장장치",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 23,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 저장장치"
+  },
+  {
+   "cid": 50000097,
+   "pid": 50000003,
+   "name": "PC부품",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 24,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > PC부품"
+  },
+  {
+   "cid": 50000098,
+   "pid": 50000003,
+   "name": "네트워크장비",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 25,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 네트워크장비"
+  },
+  {
+   "cid": 50000099,
+   "pid": 50000003,
+   "name": "소프트웨어",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 26,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 소프트웨어"
+  },
+  {
+   "cid": 50000207,
+   "pid": 50000003,
+   "name": "광학기기/용품",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 27,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 광학기기/용품"
+  },
+  {
+   "cid": 50015460,
+   "pid": 50000003,
+   "name": "청소기",
+   "parentPath": "디지털/가전",
+   "level": 2,
+   "expsOrder": 28,
+   "parents": [
+    {
+     "cid": 0,
+     "name": "전체"
+    },
+    {
+     "cid": 50000003,
+     "name": "디지털/가전"
+    }
+   ],
+   "childList": [],
+   "leaf": false,
+   "deleted": false,
+   "svcUse": true,
+   "sblogUse": true,
+   "fullPath": "디지털/가전 > 청소기"
+  }
+ ],
+ "leaf": false,
+ "deleted": false,
+ "svcUse": true,
+ "sblogUse": true,
+ "fullPath": "디지털/가전"
+}

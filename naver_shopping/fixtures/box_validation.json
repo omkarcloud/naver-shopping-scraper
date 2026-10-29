@@ -1,0 +1,114 @@
+{
+ "id": "10352481064",
+ "name": "포켓쉴 대용량 보조배터리 20000 기내반입 보조배터리 비행기 여행용 휴대용 충전기",
+ "productStatusType": "SALE",
+ "stockQuantity": 873,
+ "useExternalStock": true,
+ "productDeliveryInfo": {
+  "deliveryFeeType": "FREE",
+  "deliveryMethodTypes": [
+   "DELIVERY"
+  ],
+  "baseFee": 0,
+  "deliveryAreaType": "AREA_3",
+  "area2ExtraFee": 3000,
+  "area3ExtraFee": 5000,
+  "installationFee": false,
+  "deliveryFeePolicyText": "제주 추가 3,000원, 제주 외 도서지역 추가 5,000원",
+  "deliveryAttributeType": "ARRIVAL_GUARANTEE",
+  "isCustomProductAfterOrder": false,
+  "todayDelivery": false,
+  "deliveryCompany": {
+   "id": "CJGLS",
+   "name": "CJ대한통운"
+  }
+ },
+ "hopeDelivery": null,
+ "options": [
+  {
+   "id": 9230630933,
+   "optionType": "COMBINATION",
+   "groupName": "컬러"
+  }
+ ],
+ "optionCombinations": [
+  {
+   "id": 41434232759,
+   "optionName1": "아이보리",
+   "stockQuantity": 390,
+   "price": 0,
+   "regOrder": 0,
+   "registerDate": "2024-05-21T02:07:30.611+00:00",
+   "sellerManagerCode": "D-B-0243",
+   "productLogisticsStocks": [
+    {
+     "centerNo": 300000117,
+     "stockQuantity": 390
+    }
+   ]
+  },
+  {
+   "id": 41434232757,
+   "optionName1": "화이트",
+   "stockQuantity": 56,
+   "price": 0,
+   "regOrder": 1,
+   "registerDate": "2024-05-21T02:07:30.609+00:00",
+   "sellerManagerCode": "D-B-0241",
+   "productLogisticsStocks": [
+    {
+     "centerNo": 300000117,
+     "stockQuantity": 56
+    }
+   ]
+  },
+  {
+   "id": 41434232758,
+   "optionName1": "멜란지그레이",
+   "stockQuantity": 80,
+   "price": 0,
+   "regOrder": 2,
+   "registerDate": "2024-05-21T02:07:30.610+00:00",
+   "sellerManagerCode": "D-B-0245",
+   "productLogisticsStocks": [
+    {
+     "centerNo": 300000117,
+     "stockQuantity": 80
+    }
+   ]
+  },
+  {
+   "id": 41434232756,
+   "optionName1": "블랙",
+   "stockQuantity": 294,
+   "price": 0,
+   "regOrder": 3,
+   "registerDate": "2024-05-21T02:07:30.609+00:00",
+   "sellerManagerCode": "D-B-0242",
+   "productLogisticsStocks": [
+    {
+     "centerNo": 300000117,
+     "stockQuantity": 294
+    }
+   ]
+  },
+  {
+   "id": 41434232760,
+   "optionName1": "파스텔퍼플",
+   "stockQuantity": 53,
+   "price": 0,
+   "regOrder": 4,
+   "registerDate": "2024-05-21T02:07:30.611+00:00",
+   "sellerManagerCode": "D-B-0244",
+   "productLogisticsStocks": [
+    {
+     "centerNo": 300000117,
+     "stockQuantity": 53
+    }
+   ]
+  }
+ ],
+ "supplementProducts": [],
+ "adultAuthorizationType": "NOT_LOGIN",
+ "authenticationType": "NORMAL"
+}
