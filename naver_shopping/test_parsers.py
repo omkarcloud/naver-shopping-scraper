@@ -332,3 +332,27 @@ def test_session_carries_an_nnb_cookie(monkeypatch):
         F._drop_session()
     assert re.fullmatch(r"[A-Z0-9]{13}", first) and re.fullmatch(r"[A-Z0-9]{13}", second)
     assert first != second
+
+
+def test_reviews_send_the_sort_as_review_search_sort_type(monkeypatch):
+    """The review backend sorts by reviewSearchSortType only; under any other
+    key every sort came back newest-first (2026-10-29)."""
+    from naver_shopping import api as A
+    sent = {}
+    record = {"base": {"id": "8087042745", "origin_product_id": "8048440943", "name": "n", "link": "l"},
+              "store": {"merchant_id": "500278691"}, "review_summary": None}
+    monkeypatch.setattr(A, "_record", lambda product: record)
+    monkeypatch.setattr(A, "box_post", lambda path, body, label: sent.update(body) or None)
+    A._reviews(product="https://smartstore.naver.com/dailyromantic/products/8087042745", page=1,
+               sort="REVIEW_SCORE_ASC")
+    assert sent["reviewSearchSortType"] == "REVIEW_SCORE_ASC" and "reviewSort" not in sent
+
+
+def test_search_price_range_always_has_both_bounds():
+    """ns-portal ignores "|100000" / "50000|" and answers unfiltered results
+    (2026-10-29), so an open bound is filled in."""
+    from naver_shopping import api as A
+    assert A._filters({"max_price": 100000})["price"] == "0|100000"
+    assert A._filters({"min_price": 50000.0})["price"] == f"50000|{A.OPEN_MAX_PRICE}"
+    assert A._filters({"min_price": 50000, "max_price": 100000})["price"] == "50000|100000"
+    assert "price" not in A._filters({"free_delivery": True})

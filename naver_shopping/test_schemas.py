@@ -55,7 +55,12 @@ def test_reviews_schema():
     assert loaded["page"] == 1 and loaded["sort"] == "REVIEW_RANKING"
     loaded = schemas.ProductReviewsSchema().load({"product": "10352481064", "page": "500", "sort": "Recent"})
     assert loaded["page"] == 500 and loaded["sort"] == "REVIEW_CREATE_DATE_DESC"
-    for bad in ({"product": "10352481064", "page": "501"}, {"product": "10352481064", "sort": "newest"}):
+    loaded = schemas.ProductReviewsSchema().load({"product": "10352481064", "sort": "score_low"})
+    assert loaded["sort"] == "REVIEW_SCORE_ASC"
+    # oldest / photos / helpful are not sorts the review backend serves
+    for bad in ({"product": "10352481064", "page": "501"}, {"product": "10352481064", "sort": "newest"},
+                {"product": "10352481064", "sort": "oldest"}, {"product": "10352481064", "sort": "helpful"},
+                {"product": "10352481064", "sort": "photos"}):
         with pytest.raises(ValidationError):
             schemas.ProductReviewsSchema().load(bad)
 

@@ -33,11 +33,17 @@ def _public(mapping, upstream):
 
 # ---- search -----------------------------------------------------------------------
 
+# ns-portal ignores a price range with an open end ("|100000", "50000|") and
+# answers the unfiltered results, so a missing bound is filled in (probed
+# 2026-10-29: "0|100000" and "50000|9999999999" both filter).
+OPEN_MAX_PRICE = 9_999_999_999
+
+
 def _filters(data):
     lo, hi = data.get("min_price"), data.get("max_price")
     out = {}
     if lo is not None or hi is not None:
-        out["price"] = f"{int(lo) if lo is not None else ''}|{int(hi) if hi is not None else ''}"
+        out["price"] = f"{int(lo) if lo is not None else 0}|{int(hi) if hi is not None else OPEN_MAX_PRICE}"
     if data.get("category"):
         out["categoryIds"] = "03" + data["category"]
     if data.get("min_rating"):
@@ -224,7 +230,10 @@ def _reviews(**data):
     base, store = record["base"], record["store"]
     payload = box_post("/n/v1/contents/reviews/query-pages", {
         "checkoutMerchantNo": int(store["merchant_id"]), "originProductNo": int(base["origin_product_id"]),
-        "page": data["page"], "pageSize": REVIEW_PAGE_SIZE, "reviewSort": data["sort"],
+        "page": data["page"], "pageSize": REVIEW_PAGE_SIZE,
+        # the backend reads only reviewSearchSortType; any other key is ignored
+        # and the page comes back newest-first
+        "reviewSearchSortType": data["sort"],
     }, f"product {base['id']} reviews page {data['page']}")
     reviews, pagination = parsers.parse_reviews_page(payload or {}, REVIEW_PAGE_SIZE)
     pagination["page"] = data["page"]

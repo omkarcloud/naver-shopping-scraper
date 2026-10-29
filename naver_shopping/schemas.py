@@ -23,10 +23,13 @@ from schema_fields import (BaseSchema, ChoiceField, CommaListField, DateField, F
                            QueryField, RefField)
 from naver_shopping import refs
 
+# The review backend's reviewSearchSortType values (the four sorts the store
+# page offers). REVIEW_CREATE_DATE_ASC, REVIEW_ATTACH_RANKING and HELP_CNT
+# answer an empty page (probed 2026-10-29), so oldest / photos / helpful are
+# not offered.
 REVIEW_SORTS = {
-    "ranking": "REVIEW_RANKING", "recent": "REVIEW_CREATE_DATE_DESC", "oldest": "REVIEW_CREATE_DATE_ASC",
-    "score_high": "REVIEW_SCORE_DESC", "score_low": "REVIEW_SCORE_ASC", "photos": "REVIEW_ATTACH_RANKING",
-    "helpful": "HELP_CNT",
+    "ranking": "REVIEW_RANKING", "recent": "REVIEW_CREATE_DATE_DESC",
+    "score_high": "REVIEW_SCORE_DESC", "score_low": "REVIEW_SCORE_ASC",
 }
 BEST_PERIODS = {"realtime": "REALTIME", "daily": "DAILY", "weekly": "WEEKLY", "monthly": "MONTHLY"}
 DATALAB_PERIODS = {"daily": "date", "weekly": "week", "monthly": "month"}
@@ -87,7 +90,7 @@ class ProductReviewsSchema(BaseSchema):
         "description": "channel product number, or a smartstore.naver.com / brand.naver.com product link"})
     page = PageField(max_page=MAX_REVIEW_PAGE, metadata={"description": "1-based page of 20 reviews"})
     sort = ChoiceField(REVIEW_SORTS, load_default="REVIEW_RANKING", metadata={
-        "description": "ranking (the store's default), recent, oldest, score_high, score_low, photos, helpful"})
+        "description": "ranking (the store's default), recent, score_high, score_low"})
 
 
 # ---- stores ------------------------------------------------------------------------
